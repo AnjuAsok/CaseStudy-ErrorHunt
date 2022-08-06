@@ -50,7 +50,7 @@ app.use('/authors',authorsRouter);
 
 app.get('/',function(req,res){
 
-    res.render('indexl',{});
+    res.render('index',{});
     
 });
 
