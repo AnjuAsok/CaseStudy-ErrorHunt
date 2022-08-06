@@ -57,7 +57,7 @@ app.get('/',function(req,res){
 // app.listen(5000,()=>{
 //     console.log("Server Ready on 5000");
 // });
-// app.listen(process.env.PORT || 5000, function(){
-//     console.log("Express server casestudy-errorhuntt/listening on port", this.address().port, app.settings.env);
-//   });
-app.listen(process.env.PORT || 3000);
+ app.listen(process.env.PORT || 5000, function(){
+     console.log("Express server casestudy-errorhuntt/listening on port", this.address().port, app.settings.env);
+   });
+//app.listen(process.env.PORT || 3000);
